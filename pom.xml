@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bilgeadam</groupId>
+  <artifactId>HibernateOrnek2</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.6.14.Final</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+		<!-- Hangi sql kullanacaksa internetten dependency'si için prostgreSQL maven repository olaraka bakacaz eğer aşağıdaki gibi version yerine run time yazılırsa en güncel sürümü gelir-->
+		<!-- Dependency 'de projenin ihtiyaç duyduğu kütüphaneleri tanımlıyoruz import için-->
+		<dependency>
+		    <groupId>org.postgresql</groupId>
+		    <artifactId>postgresql</artifactId>
+		    <version>42.5.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.bilgeadam.hibernate</groupId>
+			<artifactId>HibernateOrnek</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+  </dependencies>
+</project>
